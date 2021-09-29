@@ -40,5 +40,17 @@ public class NvWa {
         maleWhiteHuman.getColor();
         maleWhiteHuman.talk();
         maleWhiteHuman.getSex();
+
+        //棕种人创建
+        Human maleBrownHuman=maleHumanFactory.createBrownHuman();
+        Human femaleBrownHuman=femaleHumanFactory.createBrownHuman();
+        System.out.println("创建棕种人女性");
+        femaleBrownHuman.getColor();
+        femaleBrownHuman.talk();
+        femaleBrownHuman.getSex();
+        System.out.println("创建棕种人男性");
+        maleBrownHuman.getColor();
+        maleBrownHuman.talk();
+        maleBrownHuman.getSex();
     }
 }

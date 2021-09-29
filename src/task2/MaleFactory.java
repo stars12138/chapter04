@@ -15,4 +15,9 @@ public class MaleFactory implements HumanFactory{
     public Human createBlackHuman() {
         return new MaleBlackHuman();
     }
+
+    @Override
+    public Human createBrownHuman() {
+        return new MaleBrownHuman();
+    }
 }
