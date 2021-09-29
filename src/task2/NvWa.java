@@ -4,7 +4,7 @@ public class NvWa {
     public static void main(String[] args){
         HumanFactory maleHumanFactory = new MaleFactory();
         HumanFactory femaleHumanFactory = new FemaleFactory();
-
+        HumanFactory intersexFactory=new IntersexFactory();
         //黄色人种创建
         Human maleYellowHuman = maleHumanFactory.createYellowHuman();
         Human femaleYellowHuman= femaleHumanFactory.createYellowHuman();
@@ -52,5 +52,12 @@ public class NvWa {
         maleBrownHuman.getColor();
         maleBrownHuman.talk();
         maleBrownHuman.getSex();
+
+        //双性人创建
+        Human intersexBrownHuman=intersexFactory.createBrownHuman();
+        System.out.println("创建棕种双性人");
+        intersexBrownHuman.getColor();
+        intersexBrownHuman.talk();
+        intersexBrownHuman.getSex();
     }
 }
