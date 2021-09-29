@@ -1,3 +1,5 @@
+package task1;
+
 public class YellowHuman implements Human{
     @Override
     public void getColor() {

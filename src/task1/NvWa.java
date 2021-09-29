@@ -1,3 +1,5 @@
+package task1;
+
 public class NvWa {
     public static void main(String[] args){
             AbstractHumanFactory Y=new HumanFactory();

@@ -1,3 +1,5 @@
+package task1;
+
 public class HumanFactory extends AbstractHumanFactory{
     @SuppressWarnings("unchecked")
     public <T extends Human> T createHuman(Class<T> C) {
