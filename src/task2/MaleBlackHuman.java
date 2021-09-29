@@ -1,18 +1,8 @@
 package task2;
 
-public class MaleBlackHuman implements Human{
-    @Override
-    public void getColor() {
-        System.out.println("黑种人黑颜色");
-    }
-
-    @Override
-    public void talk() {
-        System.out.println("黑种人说话");
-    }
-
+public class MaleBlackHuman extends AbstractBlackHuman{
     @Override
     public void getSex() {
-        System.out.println("黑种人女性");
+        System.out.println("黑种人男性");
     }
 }
